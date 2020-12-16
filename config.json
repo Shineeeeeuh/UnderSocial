@@ -1,0 +1,21 @@
+{
+    "data_server" : {
+        "port" : 358,
+        "redis_server" : {
+            "port" : 6379,
+            "password" : "123456789"
+        },
+        "mysql_server" : {
+            "host" : "localhost",
+            "port" : 3306,
+            "user" : "root",
+            "password" : "",
+            "db": "undersocial"
+        }
+    },
+    "web_server" : {
+        "port" : 81,
+        "website_name" : "UnderSocial",
+        "website_url" : "localhost:81"
+    }
+}
