@@ -3,5 +3,5 @@ function aa(){
 }
 
 function bb(){
-    window.location.replace("http://localhost:81/login");
+    window.location.replace("http://localhost:81/register");
 }

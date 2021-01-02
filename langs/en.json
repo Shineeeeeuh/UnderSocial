@@ -1,0 +1,9 @@
+{
+    "login" : "Login",
+    "register" : "Sign up",
+    "titlenapage" : "Login to your account",
+    "titleregisterpage": "Create your account",
+    "mail" : "Mail",
+    "pass" : "Password",
+    "username" : "Username"
+}

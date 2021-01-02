@@ -9,8 +9,8 @@ module.exports = {
             a = lang.getJsonLangFile(req.cookies['lang'])
         }
         if(req.cookies['user_token'] == null || req.cookies["user_token"] == ""){
-            fs.readFile('./routes/pages/index_noaccount.html', function(err, data) {
-                res.write(String(data).replace("%login%", a.login).replace("%register%", a.register).replace("%titlenapage%", a.titlenapage));
+            fs.readFile('./routes/pages/register.html', function(err, data) {
+                res.write(String(data).replace("%username%", a.username).replace("%mail%", a.mail).replace("%pass%", a.pass).replace("%titleregisterpage%", a.titleregisterpage).replace("%titleregisterpage%", a.titleregisterpage).replace("%titleregisterpage%", a.titleregisterpage));
                 res.end()
             });
         }
